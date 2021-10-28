@@ -1,0 +1,35 @@
+.coinContainer{
+    margin-top: 4%;
+    display: inline-block;
+}
+
+.coin{
+    width:200px;
+    height:200px;
+}
+
+.coin1{
+    width:200px;
+    height:200px;
+}
+
+.frontCoin{    
+    position:relative;
+    border-width:0.5em;
+    height:250px;
+    border-style: solid;
+    border-color: rgb(208, 209, 209);
+    background-color: rgb(102, 209, 209);
+    width:250px;
+    border-radius: 50%;
+    display:inline-block;
+}
+
+.frontCoin.inner{
+    position:absolute;
+    height:200px;
+    width:200px;
+    background-color: rgb(241, 222, 48);
+    display: inline-block;
+    border-radius: 50%;
+}
